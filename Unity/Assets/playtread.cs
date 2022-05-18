@@ -21,7 +21,7 @@ public class playtread : MonoBehaviour
    {
        
         Debug.Log("delayed" + Time.time);
-        yield return new WaitForSeconds(Random.Range(1,2));
+        yield return new WaitForSeconds(Random.Range(1,10));
         audioData.Play(0);
         Debug.Log("finish" + Time.time);
        
